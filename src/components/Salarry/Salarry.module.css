@@ -1,0 +1,297 @@
+.item {
+    position: absolute;
+    position: relative;
+    margin-top: -2307px;
+    background-color: #E5E5E5;
+    height: 2855px;
+    width: 1440px;
+}
+
+.salarry {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.text {
+    margin-top: 50px;
+    font-family: Geometria;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color: #7E7E7E;
+    text-decoration: underline;
+}
+
+.text1 {
+    margin-top: 50px;
+    font-family: Geometria;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color: #7E7E7E;
+    margin-left: 11px;
+    text-decoration: underline;
+}
+
+.apple {
+   font-family: Geometria;
+   font-size: 48px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 52px;
+   letter-spacing: 0px;
+   text-align: center;
+   margin-top: 21px;
+}
+
+.image {
+    z-index: 2;
+    position: absolute;
+    margin-left: 10%;
+    height: 512px;
+width: 1170px;
+border-radius: 30px;
+background: linear-gradient(90deg, #F76C55 0%, #DD599D 51.56%, #C250CD 100%);
+}
+
+.mac {
+    margin-top: 40px;
+    margin-left: 120px;
+}
+
+.december {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.december2018 {
+    color: gray;
+}
+
+.december2019 {
+    margin-left: 0.5%;
+    color: gray;
+}
+
+.replace {
+    margin-top: 80px;
+    margin-left: 10px;
+}
+
+.replace1 {
+    margin-left: 10px;
+    font-family: Geometria;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px;
+}
+
+.main {
+    position: absolute;
+    margin-left: 144px;
+    margin-top: 510px;
+    width: 1170px;
+    height: 1133px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+}
+
+.test {
+    position: absolute;
+    margin-top: 14px;
+    margin-left: 40px;
+    font-family: Geometria;
+    font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0px;
+}
+
+.test1 {
+    
+}
+
+.appleMain {
+    display: flex;
+    justify-content: center;
+}
+
+.thanks {
+    margin-left: 10px;
+    font-family: Geometria;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 52px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-top: 21px;
+}
+
+.use {
+    position: absolute;
+    margin-top: 210px;
+    margin-left: 20px;
+    font-family: Geometria;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 27px;
+letter-spacing: 0px;
+text-align: left;
+}
+.figures {
+    margin-left: 60px;
+    margin-top: 280px;
+}
+.personal {
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.rigths {
+    font-weight:bold
+}
+
+.moreinform {
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.inform {
+    cursor: pointer;
+    text-decoration: underline;
+    font-family: Geometria;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
+color: #00D36D;
+}
+
+.finalText {
+    margin-top: 65px;
+    margin-left: 40px;
+    font-family: Geometria;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0px;
+text-align: left;
+color: gray;
+}
+
+.finalMore {
+    cursor: pointer;
+    color: 
+    #00D36D;
+}
+
+.applemusic {
+    display: flex;
+    margin-top: 1700px;
+    margin-left: 140px;
+}
+
+.h1apple {
+    margin-top: 50px;
+    margin-left: 20px;
+font-family: Geometria;
+font-size: 28px;
+font-style: normal;
+font-weight: 500;
+line-height: 36px;
+letter-spacing: 0px;
+text-align: left;
+}
+/* background: linear-gradient(90deg, #F76C55 0%, #DD599D 51.56%, #C250CD 100%); */
+
+
+
+@media (min-width: 320px) and (max-width: 1220px) {
+    .item {
+        z-index: 1;
+        margin-top: -5690px;
+        height: 5630px;
+        width: 600px;
+    }
+    .text {
+        margin-left: -1100px;
+    }
+    .appleMain {
+        display: grid;
+    }
+    .thanks {
+        margin-left: -1090px;
+        margin-top: -20px;
+        font-size: 35px;
+    }
+    .apple {
+        margin-left: -1090px;
+        font-size: 35px;
+    }
+    .image {
+        margin-left: 50px;
+        width: 250px;
+        height: 220px;
+    }
+    .mac {
+        margin-top: 50px;
+        margin-left: 50px;
+        width: 150px;
+        height: 110px;
+    }
+    .december {
+        margin-top: 40px;
+        margin-left: 15px;
+    }
+    .main {
+        overflow-x:hidden;
+        margin-left: 50px;
+        margin-top: 200px;
+        width: 250px;
+        height: 2600px;
+    }
+    .test {
+        margin-left: -5px;
+    }
+    .replace1 {
+        font-size: 15px;
+    }
+    .test1 {
+        font-size: 15px;
+    }
+    .use {
+        margin-top: 320px;
+    }
+    .figures {
+        margin-top: 400px;
+        margin-left: 19px;
+    }
+    .personal {
+        margin-left: 20px;
+    }
+    .moreinform {
+        margin-left: 20px;
+    }
+    .finalText{
+        margin-left: 20px;
+    }
+    .applemusic {
+        margin-top: 2850px;
+        margin-left: 50px;
+    }
+    .apleimg{
+        width: 70px;
+        height: 70px;
+    }
+}

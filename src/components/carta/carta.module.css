@@ -1,0 +1,165 @@
+.mainCard {
+    display: flex;
+}
+
+.card1 {
+    margin-top: 50px;
+    margin-left: 135px;
+    height: 200px;
+    width: 377px;
+    border-radius: 8px;
+    border: 1px solid #00D36D;
+    box-sizing: border-box;
+}
+
+.img {
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 30px;
+    height: 30px;
+}
+
+.moscow {
+    display: flex;
+}
+
+.big {
+    margin-left: 15px;
+    font-family: Geometria;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
+}
+
+.metro {
+    display: flex;
+}
+
+.MMayak {
+    margin-left: 60px;
+}
+
+.maykMetro {
+    margin-left: 87px;
+    margin-top: -19px;
+    font-family: Geometria;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
+}
+
+.Mayak {
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 62.2px;
+}
+
+.Llub {
+    margin-left: 100px;
+}
+
+.Lub {
+    margin-left: -18px;
+}
+
+.lubMetro {
+    margin-left: 210px;
+    margin-top: -39px;
+}
+
+.number {
+    margin-top: -10px;
+    margin-left: 58px;
+}
+
+.everyDay {
+    margin-top: -10px;
+    margin-left: 58px;
+}
+
+.apple {
+    cursor: pointer;
+    color: #00D36D;
+    text-decoration: underline;
+    margin-top: -10px;
+    margin-left: 58px;
+    font-family: Geometria;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
+}
+
+.route {
+    cursor: pointer;
+    color: gray;
+    text-decoration: underline;
+    margin-left: 250px;
+    margin-top: -10px;
+    font-size: 12px;
+}
+
+
+
+.card2 {
+    margin-left: 20px;
+    margin-top: 50px;
+    height: 200px;
+    width: 377px;
+    border: 1px dashed #000000;
+    border-radius: 8px;
+}
+
+.card3 {
+    margin-left: 20px;
+    margin-top: 50px;
+    height: 200px;
+    width: 377px;
+    border: 1px dashed #000000;
+    border-radius: 8px;
+}
+
+.Bitmap {
+    margin-left: 135px;
+    margin-top: 90px;
+}
+
+@media (min-width: 320px) and (max-width: 1220px) {
+    .mainCard {
+        display: grid;
+    }
+    .card1 {
+        overflow-x:hidden;
+        margin-left: 30px;
+        height: 240px;
+        width: 307px;
+    }
+    .route {
+        margin-left: 160px;
+    }
+    .card2 {
+        overflow-x:hidden;
+        margin-left: 30px;
+        height: 240px;
+        width: 307px;
+    }
+    .card3 {
+        overflow-x:hidden;
+        margin-left: 30px;
+        height: 240px;
+        width: 307px;
+    }
+    .Bitmap {
+        margin-left: 20px;
+        width: 340px;
+        height: 100px;
+    }
+}

@@ -1,0 +1,186 @@
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.partners {
+  font-family: Geometria;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 52px;
+  letter-spacing: 0px;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.partners1 {
+    margin: 0 13px;
+    font-family: Geometria;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 52px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+
+.btnMain {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.btnPart {
+    cursor: pointer;
+    height: 48px;
+    width: 151px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    margin: 0 8px;
+}
+
+
+.btnPop {
+    cursor: pointer;
+    height: 48px;
+    width: 151px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    margin: 0 8px;
+}
+
+
+.btnSup {
+    cursor: pointer;
+    height: 48px;
+    width: 160px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    margin: 0 8px;
+}
+
+
+.btnCafe {
+    cursor: pointer;
+    height: 48px;
+    width: 188px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    margin: 0 8px;
+}
+
+.btnTaxi {
+    cursor: pointer;
+    height: 48px;
+    width: 88px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    margin: 0 8px;
+}
+
+.btnButy {
+    cursor: pointer;
+    height: 48px;
+    width: 104px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    margin: 0 8px;
+}
+
+.text {
+    text-align: center;
+    margin-top: -5px;
+}
+
+.text1 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.btnMainLow {
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+.btnElectro {
+    cursor: pointer;
+    height: 48px;
+    width: 319px;
+    border-radius: 8px;
+    background-color: #00D36D;
+    margin: 0 8px;
+}
+
+.btnZoo {
+    cursor: pointer;
+    height: 48px;
+    width: 104px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    margin: 0 8px;
+}
+
+.btnCinema {
+    cursor: pointer;
+    height: 48px;
+    width: 104px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    margin: 0 8px;
+}
+
+.btnPoint {
+    cursor: pointer;
+    height: 48px;
+    width: 104px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    margin: 0 8px;
+}
+
+.textEl {
+    color: white;
+    text-align: center;
+    margin-top: -5px;
+}
+
+.textPoint {
+    margin-left: 35px;
+    margin-top: 21px;
+}
+
+
+
+@media (min-width: 320px) and (max-width: 1220px) {
+    .main {
+        display: grid;
+        margin-left: -40%;
+    }
+    .partners {
+        margin-left: -85%;
+      }
+    .partners1 {
+        margin-top: -30px;
+        margin-left: -79%;
+      }
+    .btnMain {
+        margin-top: 40px;
+        display: grid;
+        margin-right: 65%;
+        gap: 10px;
+    }
+    .btnMainLow {
+        display: grid;
+        margin-right: 60.4%;
+        gap: 10px;
+    }
+    .btnElectro {
+        height: 95%;
+        width: 60%;
+    }
+}

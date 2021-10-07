@@ -1,0 +1,147 @@
+  
+
+.highest {
+    background-color: #FFFFFF;
+    /* height: 116px; */
+    height: 5%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* width: 1440px; */
+    width: 100%;
+    margin-top: 15px;
+}
+
+.image {
+    width: 180px;
+    height: 80px;
+    margin: 0 auto;
+    margin-top: 18px;
+    margin-left: 10%;
+}
+
+
+.mainText {
+    display: flex;
+    margin-left: 24.3%;
+    margin-top: -90px;
+}
+
+.text {
+    font-family: Geometria;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 40px;
+    color: #808080;
+    margin: 0 13px;
+}
+
+.partners {
+    margin: 0 0px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 40px;
+    text-decoration: underline;
+    margin-top: -1px;
+}
+
+.mainText2 {
+    display: flex;
+    margin-left: 15.3%;
+    margin-top: 10px;
+}
+
+.test {
+    margin-top: 10px;
+    display: flex;
+    margin-left: 100px;
+}
+
+.triangle {
+    width: 17px;
+    height: 17px;
+}
+
+.spb {
+    cursor: pointer;
+    margin-top: 0px;
+    margin-left: 0%;
+    font-family: Geometria;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+color: #808080;
+}
+
+.search {
+    margin-left: 15%;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+}
+
+/* @media (min-width: 1440px) { 
+    
+  } */
+
+.test2 {
+    display: flex;
+    /* margin-left: 150px; */
+    margin-left: 19%;
+}
+
+.enter {
+    cursor: pointer;
+    margin-top: -5px;
+    border: 1px solid #00D36D;;
+    border-radius: 8px;
+    width: 90px;
+    height: 36px;
+    /* margin-left: 23px; */
+    margin-left: 10%;
+}
+
+
+.ahead {
+    color: #00D36D;
+    margin-top: 5px;
+    text-align: center;
+}
+
+
+
+@media (min-width: 320px) and (max-width: 1220px) {   
+
+    .highest {
+        background-color: #FFFFFF;
+        height: 700px;
+        width: 700px;
+        /* width: 100%; */
+        margin-top: 15px;
+    }
+    .image {
+        width: 180px;
+        height: 80px;
+        margin: 0 auto;
+        margin-top: 18px;
+        margin-left: 12%;
+    }
+    .mainText {
+        display: grid;
+        margin-top: 50px;
+        margin-left: 12%;
+    }
+    .mainText2 {
+        display: grid;
+        margin-left: 12%;
+    }
+    .test2 {
+        margin-top: 25px;
+        margin-left: 0%;
+    }
+    .enter {
+        margin-left: 1%;
+    }
+}
